@@ -14,6 +14,7 @@ logger.kafka.name=org.apache.kafka
 logger.kafka.appenderRef.console.ref=console
 logger.kafka.level=debug
 ```
+change
 
 ## Documentation
 
