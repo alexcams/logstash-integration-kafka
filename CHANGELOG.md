@@ -1,3 +1,6 @@
+## 13.0.0
+  - Random change [#1](https://github.com/alexcams/logstash-integration-kafka/pull/1)
+
 ## 12.0.6
   - [DOC] Add info about Kafka timestamp behavior [#240](https://github.com/logstash-plugins/logstash-integration-kafka/pull/240)
 
