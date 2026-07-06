@@ -58,9 +58,9 @@ dependencies {
     implementation platform("com.fasterxml.jackson:jackson-bom:${jacksonVersion}")
 
     constraints {
-        // remove once kafka-avro-serializer pulls httpcore5-h2 > 5.3.5 versions
-        implementation('org.apache.httpcomponents.core5:httpcore5:5.3.6')
-        implementation('org.apache.httpcomponents.core5:httpcore5-h2:5.3.6')
+        // remove once kafka-avro-serializer pulls httpcore5-h2 >= 5.4.3 versions
+        implementation('org.apache.httpcomponents.core5:httpcore5:5.4.3')
+        implementation('org.apache.httpcomponents.core5:httpcore5-h2:5.4.3')
     }
 
     implementation("io.confluent:kafka-avro-serializer:${confluentKafkaVersion}") {
